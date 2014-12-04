@@ -24,7 +24,7 @@ export PATH=/sbin:/usr/sbin:$PATH:$CACHE_DIR/.tools/zip/bin
 
 echo "-----> Fetching and installing zip"
 cd $ZIP_BUILD
-curl -OL http://downloads.sourceforge.net/infozip/zip30.tar.gz
+curl -OL https://winx.googlecode.com/svn-history/r1291/wrapper/tags/infozip/zip30.tar.gz
 tar zxvf zip30.tar.gz
 cd zip30
 cp unix/Makefile .
